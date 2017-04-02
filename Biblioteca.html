@@ -4,7 +4,23 @@
 <html>
 
 <head>
-<title>Biblioteca Central</title>
+<title>Biblioteca Central
+</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </head>
 
 <style>
@@ -12,14 +28,6 @@
 img {
     border-radius: 8px;
     height: auto
-}
-div {
-    border: 1px solid black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    background-color: lightblue;
 }
 ul   {
     list-style-type: none;
@@ -57,7 +65,7 @@ h1 {
 h3 {
     color: black;
     font-family: verdana;
-    font-size: 100%;
+    font-size: 200%;
 
 }
 p  {
@@ -66,35 +74,83 @@ p  {
     font-size: 100%;
 }
 .active {
-    background-color: grey;
+    background-color: #F2F2F2;
 }
 </style>
 
 
 <body>
-<center><img src="biblioteca.jpg"  style="width:1180px;height:240px;border:0">
+<center><img src="biblioteca.jpg" alt="Biblioteca Central" class="img-responsive">
 <hr>
+
 <ul>
-  <li><a href="#inicio"> Inicio </a></li>
-  <li><a href="#Lançamentos"> Lançamentos </a></li>
+  <li><a href="Biblioteca.html">Inicio</a></li>
+  <li><a href="Lançamentos.html">Lançamentos</a></li>
   <li><a href="#cotegorias"> Categorias </a></li>
-  <li><a href="#contato"> Contato (31) 9 9407-6743 </a></li>
-  <li style="float:right"><a class="active" href="#help">Seja um colaborador</a></li>
+  <li><a href="#contato"> Contato (31)9 9407-6743 </a></li>
+  <li><a href="#Colabore">Seja um colaborador</a></li>
+  <li style="float:right;"><a href="https://www.facebook.com/alisonfsoares"><img src="fb.png" alt="facebook" style="width:36px;height:36px;border:0"></a></li>
+  <li style="float:right;"><a href="https://www.instagram.com/alisonsoares_/"><img src="insta.png" style="width:36px;height:36px;border:0"></a></li>
+  <li style="float:right;"><a href="https://www.linkedin.com/in/alison-soares-1a97a0105/"><img src="linkedin.png" style="width:36px;height:36px;border:0"></a></li>
+  <li style="float:right;"><a href="https://github.com/alisonfsoares"><img src="git.png" style="width:36px;height:36px;border:0"></a></li>
 </ul>
 
-
-
 <h1  style="text-align:center;"><strong>Escolha seu livro e baixe gratuitamente!</strong></h1>
-<h3 style="text-align:center;">
-Um dos maiores sites brasileiros com livros gratuitos em domínio público ou livros<br>
-autorizados para distribuição gratuita pelos próprios autores -
-com Dezenas de Milhares de Assinantes!</h3>
-<img src="gato.gif"  style="width:620px;height:320px;border:0">
+<hr>
+
+
+                        <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel slide" id="carousel-520446">
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#carousel-520446">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-520446">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-520446">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="img1" src="stv.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="img2" src="stv2.jpg" />
+                        <div class="carousel-caption">
+                        </div>               
+                    </div>
+                    <div class="item">
+                        <img alt="img3" src="stv3.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                         <div class="item">
+                        <img alt="img4" src="stv4.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                        <div class="item">
+                        <img alt="img5" src="stv5.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    </div>
+                </div> <a class="left carousel-control" href="#carousel-520446" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-520446" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <hr>
 
 </center>
-<h1><center>Destaques da Semana</center></h1>
+
+<h1><center><strong>Destaques da Semana </strong></center></h1>
+
 <div class="livraria">
 <h3>Steve Jobs - Livro por Walter Isaacson</h3>
 <p>Conheça a história do homem que pôs o futuro nas palmas das suas mãos. <br>A biografia autorizada de Steve Jobs, a única escrita em colaboração com o próprio.</p>
@@ -110,13 +166,16 @@ com Dezenas de Milhares de Assinantes!</h3>
 <p>William Henry Gates III mais conhecido como Bill Gates, é um magnata, filantropo e autor norte-americano, que ficou conhecido por fundar junto com Paul Allen a Microsoft, a maior e mais conhecida empresa.</p>
 </div>
 
+<center><img src="gato.gif"  style="width:620px;height:320px;border:0"></center>
+<hr>
 <center>
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Clique aqui para ter acesso a data e a hora neste exato momento.</button>
 <p id="demo"></p>
 </center>
+
 </body>
 
-
+<center>Copyright Alison Soares (The Biggest Developer Of The World)</center>
 </html>
